@@ -1,0 +1,152 @@
+*{
+    margin: auto;
+    padding: 0%; 
+ }
+ .banner{
+     position: absolute;
+     top: 40%;
+     left: 100px;
+     font-size: 50px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ h5{
+     margin-left: 35px ;
+ }
+ p{
+     font-size: larger;
+     margin-left: 35px;
+ }
+ .btn{
+     color: black;
+     border-radius: 40px;
+     margin-left: 10%;
+     margin-bottom: 20%;
+ }
+ .bb{
+     h4{
+ margin-left: 25px;
+     }
+     h6{
+         margin-left: 35px;
+     }
+     
+ }
+ .cc{
+    background-color: rgb(245, 170, 30);
+    text-align: center;
+    font-size: large;
+    color: white;
+    height: 100px;
+    padding: 40px;
+}
+.dd{
+    margin-left: 90px;
+}
+.card-body{
+    background-color:rgb(245, 170, 30) ;
+}
+.btn-card{
+    border-radius: 40px;
+    border: none;
+    position: absolute;
+    top: 5%;
+    background-color:rgb(245, 170, 30) ;
+    height: 30px;
+    width: 105px;
+
+
+}
+.ee{
+    margin-left: 90px;
+}
+.ff{
+    background-color: rgb(245, 170, 30);
+    font-size: large;
+    color: white;
+    height: 120px;
+    padding: 40px;
+button{
+    position: absolute;
+    margin-left: 60%;
+
+    border-radius: 40px;
+    top: 430%;
+
+}
+h6{
+    margin-left: 100px;
+}
+h4{
+    margin-left: 100px;
+}
+}
+.gg{
+    h1{
+        color: rgb(245, 170, 30) ;
+        font-size: 60px;
+    }
+}
+.row{
+    display: flex;
+flex-direction: row;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+}
+.reasons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.reason {
+    text-align: center;
+    max-width: 200px;
+}
+.reason-number {
+    font-size: 4em;
+    color: #F9C768;
+}
+.reason-title {
+    font-weight: bold;
+    margin: -60px 0;
+}
+.learn-more {
+    color: orange;
+    text-decoration: none;
+}
+.reason p {
+    margin-top: 6rem;
+   
+}
+
+.image-container{
+    position: relative;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    transition:  tranform 0.3s ease;
+}
+.image-container .cption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: rgba(0,0,0,0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+.image-container:hover .cption{
+    opacity: 1;
+}
+.image-container:hover img{
+    transform: scale(1,1);
+ }
